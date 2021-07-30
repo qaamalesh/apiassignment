@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7011" started-at="2021-07-30T10:59:35 IST" finished-at="2021-07-30T10:59:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7011" started-at="2021-07-30T10:59:35 IST" finished-at="2021-07-30T10:59:42 IST">
+      <class name="googleapi.CreateEvent">
+        <test-method status="PASS" signature="generaterefreshtoken()[pri:0, instance:googleapi.CreateEvent@6536e911]" name="generaterefreshtoken" is-config="true" duration-ms="2208" started-at="2021-07-30T10:59:35 IST" description="Create refresh token, before calling create event api." finished-at="2021-07-30T10:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generaterefreshtoken -->
+        <test-method status="PASS" signature="createEvent(java.lang.String)[pri:0, instance:googleapi.CreateEvent@6536e911]" name="createEvent" duration-ms="1356" started-at="2021-07-30T10:59:38 IST" description="Create Events" data-provider="getDatafromTextfile" finished-at="2021-07-30T10:59:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestEvent1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="createEvent(java.lang.String)[pri:0, instance:googleapi.CreateEvent@6536e911]" name="createEvent" duration-ms="1082" started-at="2021-07-30T10:59:39 IST" description="Create Events" data-provider="getDatafromTextfile" finished-at="2021-07-30T10:59:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestEvent2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="createEvent(java.lang.String)[pri:0, instance:googleapi.CreateEvent@6536e911]" name="createEvent" duration-ms="1050" started-at="2021-07-30T10:59:40 IST" description="Create Events" data-provider="getDatafromTextfile" finished-at="2021-07-30T10:59:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestEvent3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="createEvent(java.lang.String)[pri:0, instance:googleapi.CreateEvent@6536e911]" name="createEvent" duration-ms="1288" started-at="2021-07-30T10:59:41 IST" description="Create Events" data-provider="getDatafromTextfile" finished-at="2021-07-30T10:59:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestEvent4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+      </class> <!-- googleapi.CreateEvent -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

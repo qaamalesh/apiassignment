@@ -1,0 +1,5 @@
+Step to run
+
+1) clone the project to local
+2) open cmd, move to projectDirectory
+3) run mvn clean install -DsuiteXmlFile=testng.xml this command from command prompt.
